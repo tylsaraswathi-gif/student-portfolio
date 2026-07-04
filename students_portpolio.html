@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio - Your Name</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Your Name</h1>
+
+        <nav>
+            <a href="#home">Home</a> |
+            <a href="#about">About Me</a> |
+            <a href="#education">Education</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#projects">Projects</a> |
+            <a href="#resume">Resume</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! I am a student passionate about web development and technology.</p>
+        </section>
+
+        <hr>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <article>
+                <p>
+                    I am a dedicated student pursuing my degree in Computer Science.
+                    I enjoy learning new technologies and building web applications.
+                </p>
+
+                <h3>Career Goals</h3>
+                <p>
+                    My goal is to become a Full Stack Developer and contribute to innovative software solutions.
+                </p>
+
+                <h3>Interests</h3>
+                <p>
+                    Web Development, Programming, Artificial Intelligence, Reading Books, and Problem Solving.
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Education Section -->
+        <section id="education">
+            <h2>Education</h2>
+
+            <table border="1" cellpadding="8">
+                <tr>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>Board/University</th>
+                    <th>Year</th>
+                    <th>Percentage/CGPA</th>
+                </tr>
+
+                <tr>
+                    <td>B.Tech CSE</td>
+                    <td>Chalapathi Engineering College</td>
+                    <td>Chalapathi University</td>
+                    <td>2027</td>
+                    <td>7.9 CGPA</td>
+                </tr>
+
+                <tr>
+                    <td>Diploma</td>
+                    <td>Government Polytechnic for women,Medak</td>
+                    <td>State Board</td>
+                    <td>2024</td>
+                    <td>87</td>
+                </tr>
+
+                <tr>
+                    <td>SSC</td>
+                    <td>ZP High School</td>
+                    <td>State Board</td>
+                    <td>2020</td>
+                    <td>95%</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <article>
+                <h3>Project 1: Student Management System</h3>
+                <p><strong>Technology Used:</strong> HTML, CSS, JavaScript</p>
+                <p>
+                    A web application to manage student records, attendance, and performance.
+                </p>
+            </article>
+
+            <article>
+                <h3>Project 2: Online Portfolio Website</h3>
+                <p><strong>Technology Used:</strong> HTML</p>
+                <p>
+                    A personal portfolio website showcasing skills, education, and projects.
+                </p>
+            </article>
+
+            <article>
+                <h3>Project 3: Library Management System</h3>
+                <p><strong>Technology Used:</strong> Python, MySQL</p>
+                <p>
+                    A system for managing book records, issue/return details, and users.
+                </p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Resume Upload Form -->
+        <section id="resume">
+            <h2>Resume Upload Form</h2>
+
+            <form action="#" method="post" enctype="multipart/form-data">
+
+                <label for="rname">Name:</label><br>
+                <input type="text" id="rname" name="name" required><br><br>
+
+                <label for="remail">Email:</label><br>
+                <input type="email" id="remail" name="email" required><br><br>
+
+                <label for="phone">Phone:</label><br>
+                <input type="tel"
+                       id="phone"
+                       name="phone"
+                       pattern="[0-9]{10}"
+                       required><br><br>
+
+                <label for="resumeFile">Upload Resume:</label><br>
+                <input type="file" id="resumeFile" name="resume" required><br><br>
+
+                <input type="submit" value="Upload Resume">
+
+            </form>
+        </section>
+
+        <hr>
+
+        <!-- Multimedia Section -->
+        <section id="multimedia">
+            <h2>Self Introduction Audio</h2>
+
+            <audio controls>
+                <source src="self-introduction.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+
+            <h2>Introduction Video</h2>
+
+            <video width="400" controls>
+                <source src="introduction-video.mp4" type="video/mp4">
+                Your browser does not support video.
+            </video>
+        </section>
+
+        <hr>
+
+        <!-- Location Section -->
+        <section id="location">
+            <h2>College Location</h2>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb="
+                width="600"
+                height="450"
+                allowfullscreen=""
+                loading="lazy">
+            </iframe>
+        </section>
+
+        <hr>
+
+        <!-- Contact Form -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <form action="#" method="post">
+
+                <label for="cname">Name:</label><br>
+                <input type="text" id="cname" name="name" required><br><br>
+
+               
+                <label for="subject">Subject:</label><br>
+                <input type="text" id="subject" name="subject" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message"
+                          name="message"
+                          rows="5"
+                          cols="40"
+                          required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+
+            </form>
+        </section>
+
+    </main>
+
+    <hr>
+
+    <!-- Footer Section -->
+    <footer>
+        <h3>Social Links</h3>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                Visit LinkedIn
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/yourprofile" target="_blank">
+                Visit GitHub
+            </a>
+        </p>
+
+        <p>&copy; 2026 srilatha immadi. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
